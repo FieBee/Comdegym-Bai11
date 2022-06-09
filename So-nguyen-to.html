@@ -9,7 +9,24 @@
 </body>
 </html>
 <script !src="">
-    number = prompt("Số lượng số bg==nguyên tố cần in ra:")
-    count = 0r
+    number = prompt("Số lượng số luợng số nguyên tố cần in ra:")
+    count = 0
+    a=2
+    for (i=2;count<=number;i++){
+        if (a%i==0){
+            a++
+            break;
+        }else {
+            if (i>=a-1) {
+                count++;
+                document.write(a + ", ");
+            }
+            else{
+                    i++
+                }
+        }
+
+
+    }
 
 </script>
